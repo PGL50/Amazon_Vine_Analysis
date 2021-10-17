@@ -22,8 +22,6 @@
 
 <br/>
 
-<br/>
-
 -   How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
     
     Vine 5 star ratings = 34
