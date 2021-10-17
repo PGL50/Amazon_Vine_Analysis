@@ -36,8 +36,6 @@
 
 <br/>
 
-<br/>
-
 -   What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
     
     Vine 5 star ratings percentage = 57.63%
