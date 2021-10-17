@@ -4,7 +4,7 @@
 
 <br/>
 
-## Results 
+## Results: Deliverable 2
 
 <br/>
 
@@ -52,3 +52,40 @@
 
 
 ### Summary: The percentage of 5 star ratings is only slightly higher for the paid Vine reviewers. There is less that 1% difference between the groups (57.63% - 56.96 = 0.67%). From the initial overall analyses of the musical instrument ratings on Amazon, it does not look like there is a bias towards higher reviews when people are paid to review products. In order to test the results statistially, I ran a 2 sample t test of proportions. The resulting p-value was 0.917 which shows there is very strong evidence that there is *no difference* between the percentages for the 2 groups. To further support this it would be a good idea to perform the same anaylses on multiple Amazon product reviews to see if the lack of bias is true across many products.
+
+<br/>
+<br/>
+
+#### Upload of 4 tables for Deliverable 1 to RDS from AWS to PostGres
+
+<br/>
+
+-   SQL code
+```SQL
+select * from review_id_table limit 100
+select * from customers_table limit 100
+select * from products_table limit 100
+select * from vine_table limit 100
+```
+
+-   review_id_table
+
+![review_id_table](./Resources/review_id_df.png) 
+
+
+-   customers_table
+
+![customers_table](./Resources/customers_df.png) 
+
+
+-   products_table
+
+![products_table](./Resources/products_df.png) 
+
+
+-   vine_table
+
+![vine_table](./Resources/vine_df.png) 
+
+
+
